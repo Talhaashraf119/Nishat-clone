@@ -1,0 +1,154 @@
+/* Add this CSS to your styles.css or cart.css file */
+
+/* Main cart container styling */
+.cart-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+/* Styling the cart table */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    /* table-layout: fixed; */
+}
+
+.cart-table th, .cart-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    table-layout: fixed;
+}
+
+/* Product image styling */
+.product-image {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* Product details styling */
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-details {
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+/* Delete button styling */
+.delete-button {
+    background: none;
+    border: none;
+    color: rgb(99, 90, 90);
+    cursor: pointer;
+    margin-top: 1px;
+   
+}
+.shopping-cart {
+    width: 100%;
+    height: 270px; /* Set the height as specified */
+    background-color: rgb(111, 109, 109); /* Background color */
+     /* Text color */
+    display: flex; /* Use flexbox for centering content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+     /* Optional: Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in the width/height */
+  }
+  
+  .shopping-cart h1 {
+    color: #ffffff; /* Text color */
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin-top: 124px; /* Remove default margin */
+  }
+  
+
+.delete-button i {
+    font-size: 20px;
+    left: 0;
+    right: 20px;
+}
+
+/* Quantity buttons styling */
+.quantity-button {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Cart summary styling */
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.cart-summary p {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.checkout-button {
+    background-color: #d4a03b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.empty-cart {
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.empty-cart-icon {
+    font-size: 100px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.empty-cart h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.empty-cart p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.return-to-shop-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.return-to-shop-button:hover {
+    background-color: #333;
+}
+
